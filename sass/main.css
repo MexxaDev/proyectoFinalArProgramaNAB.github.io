@@ -1,0 +1,398 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+header nav {
+  background: linear-gradient(-45deg, #660735, #e73c7e, #0C0F50, #050C34, #A3083F);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+          animation: gradient 15s ease infinite;
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  30% {
+    background-position: 100% 50%;
+  }
+  70% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  30% {
+    background-position: 100% 50%;
+  }
+  70% {
+    background-position: 0% 50%;
+  }
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0em 0.5em;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+header nav a:hover {
+  -webkit-animation: fluido 10s ease-in-out infinite;
+          animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@-webkit-keyframes fluido {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@keyframes fluido {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+body {
+  background-image: url(https://images2.alphacoders.com/127/1274455.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body main {
+  color: white;
+}
+body main .main--Section1__Home {
+  margin: 8em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  scroll-padding-top: 10px;
+}
+body main .main--Section1__Home article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30em;
+  width: 100%;
+}
+body main .main--Section1__Home article img {
+  width: 10em;
+  border-radius: 10em;
+}
+body main .main--Section1__Home article .main--Section_Home--redes .iconic:hover {
+  cursor: pointer;
+}
+body main .main--Section1__Home .main--section__article--btnContact {
+  color: white;
+  text-decoration: none;
+  padding: 0.8em;
+  background: rgba(61, 48, 112, 0.469);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 3em;
+}
+body main .main--Section1__Home .main--section__article--btnContact:hover {
+  background: rgba(65, 29, 211, 0.469);
+}
+body main .main--Section2__aboutMe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10em 0em;
+}
+body main .main--Section2__aboutMe article {
+  width: 80%;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 19em;
+  text-align: center;
+  background: rgba(61, 48, 112, 0.469);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__logo {
+  width: 20em;
+  height: 10em;
+  border-radius: 1em;
+}
+body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__contInfo {
+  width: 18em;
+}
+body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__skills {
+  width: 8em;
+}
+body main .main--Section3__Projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body main .main--Section3__Projects div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .main--Section3__Projects div article {
+  height: 200px;
+  margin: 1em;
+  text-align: center;
+  background: rgba(61, 48, 112, 0.469);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+body main .main--Section3__Projects div article div {
+  margin-bottom: 1em;
+  width: 15em;
+  height: 8em;
+}
+body main .main--Section3__Projects div article div img {
+  width: 100%;
+  height: 100%;
+}
+body main .main--Section3__Projects div article:hover {
+  background: rgba(63, 22, 212, 0.469);
+  cursor: pointer;
+}
+body main .main--Section4__Contact {
+  display: flex;
+  justify-content: center;
+  margin: 10em;
+  height: 20em;
+}
+body main .main--Section4__Contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  padding: 1em;
+  border-radius: 1em;
+  background: rgba(61, 48, 112, 0.469);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+body main .main--Section4__Contact form h3 {
+  margin-bottom: 1em;
+}
+body main .main--Section4__Contact form input {
+  width: 18em;
+  margin: 0.7em 0em;
+}
+body main .main--Section4__Contact form textarea {
+  width: 18em;
+  margin: 1em 0em;
+}
+body main .main--Section4__Contact form a {
+  text-decoration: none;
+  color: white;
+  background: rgba(61, 48, 112, 0.469);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 0.4em;
+  margin-top: 5em;
+  border-radius: 1em;
+}
+body main .main--Section4__Contact form a:hover {
+  background: rgba(65, 29, 211, 0.469);
+}
+
+@media (max-width: 675px) {
+  body main .main--Section2__aboutMe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10em 0em;
+  }
+  body main .main--Section2__aboutMe article {
+    width: 80%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 30em;
+    text-align: center;
+    background: rgba(61, 48, 112, 0.469);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+  body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__logo {
+    width: 12em;
+    border-radius: 1em;
+  }
+  body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__contInfo {
+    width: 18em;
+  }
+  body main .main--Section2__aboutMe article .main--Section2__aboutMe--article__skills {
+    width: 8em;
+  }
+  body .popup {
+    width: 15em;
+    height: 10em;
+    background: rgba(61, 48, 112, 0.514);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    border-radius: 1em;
+    border: 1px solid rgba(204, 187, 187, 0.062);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 3.9em;
+    margin-bottom: 2em;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+  }
+}
+.popup {
+  width: 15em;
+  height: 10em;
+  background: rgba(61, 48, 112, 0.514);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.09);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 1em;
+  border: 1px solid rgba(204, 187, 187, 0.062);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+.popup .contenedor-btnes {
+  display: flex;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border: 1px solid rgba(204, 187, 187, 0.062);
+  padding: 0.4em;
+}
+.popup .contenedor-btnes .circle-1 {
+  background-color: red;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 3em;
+  margin: 0em 0.2em;
+}
+.popup .contenedor-btnes .circle-1:hover {
+  cursor: pointer;
+}
+.popup .contenedor-btnes .circle-2 {
+  background-color: rgb(255, 251, 0);
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 3em;
+  margin: 0em 0.2em;
+}
+.popup .contenedor-btnes .circle-2:hover {
+  cursor: pointer;
+}
+.popup .contenedor-btnes .circle-3 {
+  background-color: rgb(94, 255, 0);
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 3em;
+  margin: 0em 0.2em;
+}
+.popup .contenedor-btnes .circle-3:hover {
+  cursor: pointer;
+}
+.popup .contenedor-Text {
+  padding: 0.6em;
+  color: rgb(232, 216, 250);
+}
+.popup .contenedor-Text p {
+  opacity: 10;
+}
+.popup a {
+  -webkit-animation: fluido 10s ease-in-out infinite;
+          animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+@keyframes fluido {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@-webkit-keyframes slidein {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 12em;
+}/*# sourceMappingURL=main.css.map */
